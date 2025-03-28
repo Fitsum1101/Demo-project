@@ -1,4 +1,5 @@
 import React from "react";
+import Whychooseus from "./why choose us/Whychooseus";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           </li>
         </ul>
       </header>
+    <Whychooseus/>
     </div>
   );
 }

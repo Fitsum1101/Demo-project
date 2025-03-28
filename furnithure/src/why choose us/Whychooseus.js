@@ -1,0 +1,14 @@
+import React from 'react'
+
+export default function Whychooseus() {
+  return (
+    <div>
+    <h1> WHY CHOOSE US</h1>  
+    <h2> QUALITY CRAFTSMANSHIP
+</h2>
+<p>AT OUR DESIGN STUDIO, WE PRIDE OURSELVES ON USING ONLY THE FINEST MATERIALS AND
+ TECHNIQUES. EACH PIECE OF FURNITURE IS CRAFTED WITH CARE, ENSURING DURABILITY AND STYLE
+ THAT LASTS</p>
+    </div>
+  )
+}
