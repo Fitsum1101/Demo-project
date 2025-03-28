@@ -1,5 +1,5 @@
 import React from "react";
-
+import Exrecise from "./Teda/exrecise";
 export default function App() {
   return (
     <div className="bg-gray-100">
@@ -17,6 +17,9 @@ export default function App() {
           </li>
         </ul>
       </header>
+      <div>
+        <Exrecise />
+      </div>
     </div>
   );
 }
