@@ -8,7 +8,7 @@ export default function App() {
         <ul>
           <li className="text-2xl text-center font-bold">Furniture Store</li>
           <li className="text-lg text-center">
-            Welcome to our online furniture store!
+         kale sera edi
           </li>
           <li className="text-lg text-center">
             Explore our collection of stylish and modern furniture.
