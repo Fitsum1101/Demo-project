@@ -13,7 +13,7 @@ export default function App() {
           <li className="text-lg text-center">
             Explore our collection of stylish and modern furniture.
           </li>
-          <li className="text-lg text-center">
+          <li className="text-lg text-center h-10">
             Shop now and transform your space!
           </li>
         </ul>
