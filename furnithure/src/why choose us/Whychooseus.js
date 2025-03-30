@@ -6,14 +6,14 @@ import photo from './image/photo.jpg';
 
 export default function Whychooseus() {
   return (
-    <div>
+    <div className='bg-cream-100'>
     <h1 className='text-center font-bold text-2xl  '>  WHY CHOOSE US</h1>  
     <h2 className='text-center font-semibold'> QUALITY CRAFTSMANSHIP
 </h2>
 <p className='px-10 text-center mb-24'>AT OUR DESIGN STUDIO, WE PRIDE OURSELVES ON USING ONLY THE FINEST MATERIALS AND<br/>
   TECHNIQUES. EACH PIECE OF FURNITURE IS CRAFTED WITH CARE, ENSURING DURABILITY AND STYLE
  <br/>THAT LASTS</p>
- <div className='grid grid-cols-3 py-10 px-10'> 
+ <div className='grid grid-cols-3 py-10 px-8'> 
   <div>
   <div>
     <FaShippingFast className='text-8xl filter grayscale'/>
@@ -27,11 +27,10 @@ export default function Whychooseus() {
     </p>
   </div>
   <div>
-    <FaHandshake className='text-8xl '/>
-    <h2 className='font-semibold py-2  '> 24/7 SUPPORT</h2>
+    <FaHandshake className='text-9xl py-2 '/>
+    <h2 className='font-semibold py-2 px-6  '> 24/7 SUPPORT</h2>
     <p>
-
-<br/>OUR SATISFACTION IS OUR PRIORITY,
+OUR SATISFACTION IS OUR PRIORITY,
   <br/>WHICH IS WHY WE OFFER ROUND
    <br/>THE-CLOCK SUPPORT! WHETHER
  <br/>YOU HAVE QUESTIONS ABOUT A
@@ -46,11 +45,11 @@ export default function Whychooseus() {
   <div><div className='flex text-6xl'>
     <FaMobileAlt/><FaNetworkWired/><FaDesktop/>
   </div>
- <h2 className='font-semibold py-2'>
+ <h2 className='font-semibold py-2 px-10'>
  EASY TO SHOP
  </h2>
- <p>
- <br/>HOPPING FOR FURNITURE SHOULD
+ <p className='pb-5'>
+ HOPPING FOR FURNITURE SHOULD
  <br/> BE A BREEZE, AND WE MAKE IT
   <br/>SIMPLE! OUR USER-FRIENDLY
   <br/>WEBSITE IS DESIGNED WITH YOU
@@ -60,11 +59,10 @@ export default function Whychooseus() {
  </p>
   </div>
   <div>
-    <FaCheckCircle className='text-8xl' />
-    <h2>HASSLE FREE RETURNS</h2>
-
+    <FaCheckCircle className='text-8xl ' />
+    <h2 className='font-semibold pt-5 px-3'>HASSLE FREE RETURNS</h2>
     <p>
-    <br/>ENJOY WORRY-FREE SHOPPING
+  ENJOY WORRY-FREE SHOPPING
  <br/>WITH OUR HASSLE-FREE
  <br/>RETURNS! IF YOU’RE NOT
  <br/>SATISFIED WITH YOUR
