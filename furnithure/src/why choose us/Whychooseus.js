@@ -3,8 +3,8 @@ import React from 'react'
 export default function Whychooseus() {
   return (
     <div>
-    <h1> WHY CHOOSE US</h1>  
-    <h2> QUALITY CRAFTSMANSHIP
+    <h1 className='text-center font-semibold  '>  WHY CHOOSE US</h1>  
+    <h2 className='tex'> QUALITY CRAFTSMANSHIP
 </h2>
 <p>AT OUR DESIGN STUDIO, WE PRIDE OURSELVES ON USING ONLY THE FINEST MATERIALS AND
  TECHNIQUES. EACH PIECE OF FURNITURE IS CRAFTED WITH CARE, ENSURING DURABILITY AND STYLE
