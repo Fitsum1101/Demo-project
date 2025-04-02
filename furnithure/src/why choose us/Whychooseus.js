@@ -1,76 +1,67 @@
 import React from 'react'
-import { FaCheckCircle, FaDesktop, , FaMobileAlt, FaNetworkWired, FaRegHandshake, FaShippingFast } from 'react-icons/fa'
+import {  FaDesktop,  FaMobileAlt, FaNetworkWired,   } from 'react-icons/fa'
 import { FaHandshake } from 'react-icons/fa6'
 import photo from './image/photo.jpg';
 
 
 export default function Whychooseus() {
   return (
-    <div className='bg-cream-100'>
-    <h1 className='text-center font-bold text-2xl'>  WHY CHOOSE US</h1>  
+    <div className='bg-cream-100 font-serif-inter text-gray-900 w-[1330px] my-0 mx-auto'>
+    <h1 className='text-center font-bold text-2xl pt-16 pb-6'>  WHY CHOOSE US</h1>  
     <h2 className='text-center font-semibold'> QUALITY CRAFTSMANSHIP</h2>
 <p className='px-10 text-center mb-24'>AT OUR DESIGN STUDIO, WE PRIDE OURSELVES ON USING ONLY THE FINEST MATERIALS AND<br/>
   TECHNIQUES. EACH PIECE OF FURNITURE IS CRAFTED WITH CARE, ENSURING DURABILITY AND STYLE
  <br/>THAT LASTS</p>
- <div className='grid grid-cols-3 py-10 px-8'> 
+ <div className='grid grid-cols-3 py-2 px-32 gap-2'> 
   <div>
   <div>
-    <FaShippingFast className='text-8xl filter grayscale'/>
+  
+    <span className="material-icons text-4xl ">local_shipping</span>
     <h2 className='font-semibold py-2'>FAST  & FREE SHIPPING</h2>
-    <p className=' capitalize'>
+    <p className=' lowercase font-inter text-gray-500'>
     WE UNDERSTAND THAT
 <br/> WHEN YOU ORDER
-<br/> FURNITURE, YOU WANT IT
- <br/>DELIVERED QUICKLY AND
- <br/>WITHOUT HASSLE
+<br/> FURNITURE, 
     </p>
   </div>
   <div>
-    <FaHandshake className='text-9xl py-2 '/>
+    <FaHandshake className='text-5xl py-2  '/>
     <h2 className='font-semibold py-2 px-6  '> 24/7 SUPPORT</h2>
-    <p>
+    <p className='lowercase font-inter text-gray-500'>
 OUR SATISFACTION IS OUR PRIORITY,
-  <br/>WHICH IS WHY WE OFFER ROUND
-   <br/>THE-CLOCK SUPPORT! WHETHER
- <br/>YOU HAVE QUESTIONS ABOUT A
- <br/>PRODUCT, NEED ASSISTANCE WITH
- <br/>YOUR ORDER, OR REQUIRE DESIGN
- <br/>ADVICE, OUR DEDICATED TEAM IS
- <br/>HERE TO HELP ANYTIME
+  WHICH<br/> IS WHY WE OFFER ROUND
+   THE-CLOCK<br/> SUPPORT! WHETHER
+ YOU HAVE QUESTIONS <br/>ABOUT A
+ PRODUCT, 
     </p>
   </div>
  </div>
  <div>
-  <div><div className='flex text-6xl'>
+  <div><div className='flex text-2xl '>
     <FaMobileAlt/><FaNetworkWired/><FaDesktop/>
   </div>
+
  <h2 className='font-semibold py-2 px-10'>
  EASY TO SHOP
  </h2>
- <p className='pb-5'>
+ <p className='pb-5 lowercase font-inter text-gray-500'>
  HOPPING FOR FURNITURE SHOULD
- <br/> BE A BREEZE, AND WE MAKE IT
-  <br/>SIMPLE! OUR USER-FRIENDLY
+  BE A BREEZE,<br/> AND WE MAKE IT
+  SIMPLE! OUR USER-FRIENDLY
   <br/>WEBSITE IS DESIGNED WITH YOU
-  <br/>IN MIND, ALLOWING YOU TO
- <br/>BROWSE OUR COLLECTION
- <br/>EFFORTLESSLY
+  IN MIND,
  </p>
   </div>
   <div>
-    <FaCheckCircle className='text-8xl ' />
+    
+    <span className="material-icons text-4xl ">task_alt</span>
     <h2 className='font-semibold pt-5 px-3'>HASSLE FREE RETURNS</h2>
-    <p>
+    <p className='lowercase font-inter text-gray-500'>
   ENJOY WORRY-FREE SHOPPING
- <br/>WITH OUR HASSLE-FREE
- <br/>RETURNS! IF YOU’RE NOT
-
+ WITH OUR<br/> HASSLE-FREE
+ RETURNS! IF YOU’RE NOT
  <br/>SATISFIED WITH YOUR
- <br/>PURCHASE, SIMPLY LET US
- <br/>KNOW—RETURNING ITEMS IS
- <br/>EASY AND STRAIGHTFORWARD.
- <br/>YOUR SATISFACTION IS OUR
- <br/>PRIORITY
+ PURCHASE, 
 
     </p>
   </div>
